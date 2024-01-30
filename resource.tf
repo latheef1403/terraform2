@@ -5,4 +5,3 @@ resource "aws_instance" "ec2_instance" {
     instance_type = var.instance_type
     key_name = var.ami_key_pair_name
 }
-resource "s3_bucket"
